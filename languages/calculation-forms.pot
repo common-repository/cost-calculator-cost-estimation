@@ -1,0 +1,608 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Calculator Forms Builder\n"
+"POT-Creation-Date: 2021-11-05 21:56+0700\n"
+"PO-Revision-Date: 2021-11-05 21:56+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: calculation-forms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: backend/import_export_form.php:9
+msgid "Import/Export Form"
+msgstr ""
+
+#: backend/import_export_form.php:18
+msgid "Import Form"
+msgstr ""
+
+#: backend/import_export_form.php:19
+msgid "Export Form"
+msgstr ""
+
+#: backend/main.php:14
+msgid "Shortcode"
+msgstr ""
+
+#: backend/main.php:15 fields/date.php:8 fields/date.php:19
+msgid "Date"
+msgstr ""
+
+#: backend/main.php:46
+msgid "Calculation Forms"
+msgstr ""
+
+#: backend/main.php:47
+msgid "Calculation"
+msgstr ""
+
+#: backend/main.php:59 backend/main.php:60
+msgid "Submissions"
+msgstr ""
+
+#: backend/main.php:74
+msgid "Builder Form"
+msgstr ""
+
+#: backend/main.php:94 backend/submissions.php:58
+msgid "Form"
+msgstr ""
+
+#: backend/main.php:97 backend/main.php:272 fields/email.php:8
+#: fields/email.php:19
+msgid "Email"
+msgstr ""
+
+#: backend/main.php:100 backend/main.php:309
+msgid "Messages"
+msgstr ""
+
+#: backend/main.php:118
+msgid "Add Fields"
+msgstr ""
+
+#: backend/main.php:119
+msgid "Filed Settings"
+msgstr ""
+
+#: backend/main.php:122
+msgid "Layout"
+msgstr ""
+
+#: backend/main.php:128
+msgid "Common Fields"
+msgstr ""
+
+#: backend/main.php:134
+msgid "Advanced Fields"
+msgstr ""
+
+#: backend/main.php:142
+msgid "Type"
+msgstr ""
+
+#: backend/main.php:144
+msgid "General"
+msgstr ""
+
+#: backend/main.php:149
+msgid "Field Name"
+msgstr ""
+
+#: backend/main.php:153
+msgid "Field Label"
+msgstr ""
+
+#: backend/main.php:157 backend/main.php:161
+msgid "Default"
+msgstr ""
+
+#: backend/main.php:163 backend/main.php:208
+msgid "Insert Merge Tag"
+msgstr ""
+
+#: backend/main.php:168
+msgid "Min"
+msgstr ""
+
+#: backend/main.php:172
+msgid "Max"
+msgstr ""
+
+#: backend/main.php:176 backend/main.php:291
+msgid "From"
+msgstr ""
+
+#: backend/main.php:180
+msgid "Prefix"
+msgstr ""
+
+#: backend/main.php:184
+msgid "Postfix"
+msgstr ""
+
+#: backend/main.php:188
+msgid "Custom Values"
+msgstr ""
+
+#: backend/main.php:192
+msgid "Choices"
+msgstr ""
+
+#: backend/main.php:195
+msgid "D"
+msgstr ""
+
+#: backend/main.php:196
+msgid "Label"
+msgstr ""
+
+#: backend/main.php:197
+msgid "Value"
+msgstr ""
+
+#: backend/main.php:198 backend/main.php:199
+msgid "add/remove"
+msgstr ""
+
+#: backend/main.php:206
+msgid "Formula"
+msgstr ""
+
+#: backend/main.php:213
+msgid "Required"
+msgstr ""
+
+#: backend/main.php:217
+msgid "Number Format"
+msgstr ""
+
+#: backend/main.php:219
+msgid "None"
+msgstr ""
+
+#: backend/main.php:220
+msgid "9,999.99"
+msgstr ""
+
+#: backend/main.php:221
+msgid "9.999,99"
+msgstr ""
+
+#: backend/main.php:225
+msgid "Decimal"
+msgstr ""
+
+#: backend/main.php:229
+msgid "Symbols"
+msgstr ""
+
+#: backend/main.php:233
+msgid "Symbols position"
+msgstr ""
+
+#: backend/main.php:235
+msgid "Left"
+msgstr ""
+
+#: backend/main.php:236
+msgid "Right"
+msgstr ""
+
+#: backend/main.php:241
+msgid "Advanced"
+msgstr ""
+
+#: backend/main.php:246
+msgid "Class"
+msgstr ""
+
+#: backend/main.php:250
+msgid "ID"
+msgstr ""
+
+#: backend/main.php:254
+msgid "Visibility"
+msgstr ""
+
+#: backend/main.php:256
+msgid "Visible"
+msgstr ""
+
+#: backend/main.php:257 fields/hidden.php:8
+msgid "Hidden"
+msgstr ""
+
+#: backend/main.php:261
+msgid "Conditional Logic"
+msgstr ""
+
+#: backend/main.php:263
+msgid "Edit"
+msgstr ""
+
+#: backend/main.php:287
+msgid "To"
+msgstr ""
+
+#: backend/main.php:295
+msgid "Subject"
+msgstr ""
+
+#: backend/main.php:299
+msgid "Additional headers"
+msgstr ""
+
+#: backend/main.php:303
+msgid "Message body"
+msgstr ""
+
+#: backend/main.php:323
+msgid "Sender's message was sent successfully"
+msgstr ""
+
+#: backend/main.php:327
+msgid "Sender's message failed to send"
+msgstr ""
+
+#: backend/main.php:331
+msgid "Validation errors occurred"
+msgstr ""
+
+#: backend/main.php:335
+msgid "There are terms that the sender must accept"
+msgstr ""
+
+#: backend/main.php:339
+msgid "There is a field that the sender must fill in"
+msgstr ""
+
+#: backend/main.php:349
+msgid "Configure Conditional Logic"
+msgstr ""
+
+#: backend/main.php:351
+msgid ""
+"Conditional logic allows you to change what the user sees depending on the "
+"fields they select."
+msgstr ""
+
+#: backend/main.php:354
+msgid "Enable Conditional Logic"
+msgstr ""
+
+#: backend/main.php:360
+msgid "Show"
+msgstr ""
+
+#: backend/main.php:361
+msgid "Hide"
+msgstr ""
+
+#: backend/main.php:363
+msgid " this field if"
+msgstr ""
+
+#: backend/main.php:365
+msgid "All"
+msgstr ""
+
+#: backend/main.php:366
+msgid "Any"
+msgstr ""
+
+#: backend/main.php:368
+msgid "of the following match:"
+msgstr ""
+
+#: backend/main.php:375
+msgid "is"
+msgstr ""
+
+#: backend/main.php:376
+msgid "is not"
+msgstr ""
+
+#: backend/main.php:377
+msgid "greater than"
+msgstr ""
+
+#: backend/main.php:378
+msgid "less than"
+msgstr ""
+
+#: backend/main.php:379
+msgid "contains"
+msgstr ""
+
+#: backend/main.php:380
+msgid "starts with"
+msgstr ""
+
+#: backend/main.php:381
+msgid "ends with"
+msgstr ""
+
+#: backend/paypal_settings.php:11 backend/paypal_settings.php:19
+msgid "Paypal"
+msgstr ""
+
+#: backend/paypal_settings.php:28
+msgid "Price Field (required)"
+msgstr ""
+
+#: backend/paypal_settings.php:34
+msgid "Quantity"
+msgstr ""
+
+#: backend/settings.php:14
+msgid "Settings"
+msgstr ""
+
+#: backend/settings.php:15
+msgid "Add-ons"
+msgstr ""
+
+#: backend/settings.php:25
+msgid "Calculation Forms Settings"
+msgstr ""
+
+#: backend/settings.php:31 backend/submissions.php:172
+msgid "Currency"
+msgstr ""
+
+#: backend/settings.php:35
+msgid "U.S. Dollar"
+msgstr ""
+
+#: backend/settings.php:36
+msgid "Australian Dollar"
+msgstr ""
+
+#: backend/settings.php:37
+msgid "Brazilian Real"
+msgstr ""
+
+#: backend/settings.php:38
+msgid "Canadian Dollar"
+msgstr ""
+
+#: backend/settings.php:39
+msgid "Czech Koruna"
+msgstr ""
+
+#: backend/settings.php:40
+msgid "Danish Krone"
+msgstr ""
+
+#: backend/settings.php:41
+msgid "Euro"
+msgstr ""
+
+#: backend/settings.php:42
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: backend/settings.php:43
+msgid "Hungarian Forint"
+msgstr ""
+
+#: backend/settings.php:44
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: backend/settings.php:45
+msgid "Japanese Yen"
+msgstr ""
+
+#: backend/settings.php:46
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: backend/settings.php:47
+msgid "Mexican Peso"
+msgstr ""
+
+#: backend/settings.php:48
+msgid "Norwegian Krone"
+msgstr ""
+
+#: backend/settings.php:49
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: backend/settings.php:50
+msgid "Philippine Peso"
+msgstr ""
+
+#: backend/settings.php:51
+msgid "Polish Zloty"
+msgstr ""
+
+#: backend/settings.php:52
+msgid "Pound Sterling"
+msgstr ""
+
+#: backend/settings.php:53
+msgid "Russian Ruble"
+msgstr ""
+
+#: backend/settings.php:54
+msgid "Singapore Dollar"
+msgstr ""
+
+#: backend/settings.php:55
+msgid "Swedish Krona"
+msgstr ""
+
+#: backend/settings.php:56
+msgid "ASwiss Franc"
+msgstr ""
+
+#: backend/settings.php:57
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: backend/settings.php:58
+msgid "Thai Baht"
+msgstr ""
+
+#: backend/settings.php:59
+msgid "Turkish Lira"
+msgstr ""
+
+#: backend/settings.php:65
+msgid "Paypal Settings"
+msgstr ""
+
+#: backend/settings.php:68
+msgid "Client ID"
+msgstr ""
+
+#: backend/settings.php:74
+msgid "Secret Key"
+msgstr ""
+
+#: backend/settings.php:80
+msgid "Sandbox"
+msgstr ""
+
+#: backend/settings.php:86
+msgid "reCaptcha Settings"
+msgstr ""
+
+#: backend/settings.php:89
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: backend/settings.php:95
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: backend/submissions.php:18
+msgid "All Forms"
+msgstr ""
+
+#: backend/submissions.php:57 backend/submissions.php:152
+msgid "Status Payment"
+msgstr ""
+
+#: backend/submissions.php:102
+msgid "Datas"
+msgstr ""
+
+#: backend/submissions.php:156
+msgid "Pending payment"
+msgstr ""
+
+#: backend/submissions.php:157
+msgid "Completed"
+msgstr ""
+
+#: backend/submissions.php:158
+msgid "Failed"
+msgstr ""
+
+#: backend/submissions.php:164 fields/total.php:8 fields/total.php:19
+msgid "Total"
+msgstr ""
+
+#: fields/checkbox.php:8 fields/checkbox.php:20
+msgid "Checkbox"
+msgstr ""
+
+#: fields/checkbox.php:24 fields/radio.php:24
+msgid "First Choice"
+msgstr ""
+
+#: fields/checkbox.php:27 fields/radio.php:27
+msgid "Second Choice"
+msgstr ""
+
+#: fields/hidden.php:19
+msgid "Hidden Field"
+msgstr ""
+
+#: fields/html.php:8
+msgid "HTML"
+msgstr ""
+
+#: fields/html.php:23
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+msgstr ""
+
+#: fields/index.php:186 fields/recaptcha.php:8 fields/recaptcha.php:19
+msgid "reCAPTCHA"
+msgstr ""
+
+#: fields/number.php:8 fields/number.php:19
+msgid "Number"
+msgstr ""
+
+#: fields/radio.php:8 fields/radio.php:20
+msgid "Radio"
+msgstr ""
+
+#: fields/select.php:8 fields/select.php:20
+msgid "Select"
+msgstr ""
+
+#: fields/select.php:23
+msgid "Option 1"
+msgstr ""
+
+#: fields/select.php:24
+msgid "Option 2"
+msgstr ""
+
+#: fields/slider.php:8 fields/slider.php:19
+msgid "Slider"
+msgstr ""
+
+#: fields/submit.php:8 fields/submit.php:19
+msgid "Submit"
+msgstr ""
+
+#: fields/text.php:8 fields/text.php:19
+msgid "Text"
+msgstr ""
+
+#: frontend/shortcode.php:48
+msgid "Not found 404 Form"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Calculator Forms Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://dev.wall-f.com/calculator/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress Calculator helps you to build any type of estimation forms on a "
+"few easy steps"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rednumber"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://codecanyon.net/user/rednumber/portfolio"
+msgstr ""

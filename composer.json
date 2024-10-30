@@ -1,0 +1,8 @@
+{
+    "require": {
+        "nxp/math-executor": "*",
+        "stripe/stripe-php": "^7.103",
+        "paypal/paypal-checkout-sdk": "^1.0",
+        "dompdf/dompdf": "^1.1"
+    }
+}

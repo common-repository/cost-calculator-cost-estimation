@@ -1,0 +1,596 @@
+.hidden,
+body.post-type-calculation_forms #titlediv #edit-slug-box,
+body.post-type-calculation_forms #preview-action,
+body.post-type-cf_submissions #titlediv #edit-slug-box,
+.type-calculation_forms .row-actions .view
+ {
+   display: none !important;
+}
+#screen-options-wrap.hidden {
+    display: block !important;
+}
+.cfbuilder-field-disabled, input[data-visible="hidden"]  {
+    background: url(../images/eye_off_icon.png) right 8px center no-repeat;
+    background-size: 16px;
+}
+.cfbuilder__toolbar_element_logic_button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    color: #111;
+    border-radius: 3px;
+}
+.calculationform-icon:before {
+    font-family: "calculationforms" !important;
+}
+#form-builder-main .inside {
+   padding: 0;
+   margin-top: -13px;
+}
+.cfbuilder-content-body {
+    min-height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.cfbuilder-content input, .cfbuilder-content select, .cfbuilder-content button {
+	pointer-events:none;
+}
+
+.calculation-forms-tab .hr{
+     margin-top: -21px;
+    width: 100%;
+    height: 1px;
+    background: #f2f2f3;
+}
+.calculation-forms-tab ul{
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.calculation-forms-tab ul li a {
+    padding: 20px 30px;
+    flex-direction: column;
+    justify-content: center;
+    display:  inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.4s all;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    color: #111;
+}
+.calculation-forms-tab ul li a.active {
+    box-shadow: 0 -3px #2270b1 inset !important;
+    color: #000;
+}
+.calculation-forms-tab ul li a:focus {
+    outline: none !important;
+}
+.calculation-forms-container {
+    padding-top: 20px;
+}
+.calculation-forms-content-tab-form {
+	display: flex;
+}
+.calculation-forms-content-tab-form .cfbuilder-content{
+	flex: 3;
+    padding-bottom: 50px;
+}
+.calculation-forms-content-tab-form .cfbuilder-sidebar{
+   flex: 2;
+   border: 1px solid #ccc;
+   border-bottom: 0;
+   border-top: 0;
+   border-right: 0;
+   margin-top: -21px;
+ }
+.cfbuilder-sidebar-data  ul {
+    margin: 0 15px;
+}
+.cfbuilder-sidebar-data  ul.cfbuilder-tab-element {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px 20px;
+    justify-content: space-between;
+}
+.cfbuilder-sidebar-data  ul.cfbuilder-tab-element li {
+    width: 33.333%;
+    border: none;
+    cursor: pointer;
+}
+.cfbuilder-sidebar-data h4, .cfbuilder-sidebar-tool-settings h4 {
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 15px 20px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+ }
+
+.calculationform-last-child.active{
+    border-bottom: 1px solid #CCC !important;
+}
+.cfbuilder-sidebar-data h4 i, .cfbuilder-sidebar-tool-settings h4 i{
+   position: absolute;
+   right: 15px;
+ }
+ .cfbuilder-field {
+ 	position: relative;
+ 	margin-bottom: 10px;
+   padding: 0 10px;
+   box-sizing: border-box;
+ }
+ .cfbuilder-row .cfbuilder-field {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 25px;
+    border-left: 3px solid transparent;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+ }
+ .cfbuilder-field-container-element input[type=text], .cfbuilder-field-container-element select, .cfbuilder-field-container-element input[type=date], .cfbuilder-field-container-element input[type=number], .cfbuilder-field-container-element input[type=email], .cfbuilder__toolbar_element input[type=text]   {
+ 	background-color: #fff;
+    border-color: #ccc;
+    opacity: 1;
+    width: 100%;
+ }
+.cfbuilder__toolbar_element {
+    margin: 0 0 10px;
+}
+#cfbuilder__toolbar_formula select {
+    margin: 0 0 10px;
+}
+.cfbuilder-field-label, .cfbuilder__toolbar_element label {
+    margin: 0 0 5px;
+}
+.cfbuilder-field-radio-inner {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.cfbuilder-field-radio-inner label, .cfbuilder-field-checkbox-inner label {
+    margin: -5px 0 0 0;
+}
+.cfbuilder-field-checkbox-inner {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.cfbuilder-field-checkbox-inner:last-child, .cfbuilder-field-radio-inner:last-child {
+    margin: 0;
+}
+.cfbuilder-field-radio-inner label {
+    margin: -5px 0 0 0;
+}
+ .cfbuilder-sidebar-data>ul.cfbuilder-tab-row>li {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   display: flex;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+ .cfbuilder-sidebar-data>ul>li i {
+    margin: 0 0 5px;
+ }
+.cfbuilder-sidebar-data ul.cfbuilder-tab-element li >div {
+    border: 1px solid #DDD;
+    padding: 7px;
+    border-radius: 3px;
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cfbuilder-sidebar-data ul.cfbuilder-tab-element li.disable-sort-item>div {
+    background: #e7e7e7;
+} 
+.cfbuilder-row-inner span{
+   background: #ccc;
+   height: 20px;
+   display: inline-block;
+   border-radius: 3px;
+   margin-left: 5px;
+   flex-grow: 1;
+}
+.cfbuilder-tool-text {
+    display: inline-block;
+    text-align: center;
+}
+.cf-row-2{
+ flex-grow: 2 !important;
+}
+.calculation-forms-content-tab {
+   padding: 0  px;
+}
+
+.calculation-forms-content-tab label{
+    display: block;
+}
+.calculation-forms-content-tab input[type=text],.calculation-forms-content-tab input[type=number],.calculation-forms-content-tab textarea {
+    width: 100%;
+}
+.cfbuilder-row {
+    min-height: 50px;
+    width:  100%;
+}
+
+
+.cfbuilder-row-container-row3 .cfbuilder-row, .cfbuilder-row-container-row4 .cfbuilder-row {
+    width: 35%;
+    float: left;
+}
+.cfbuilder-row-container-row3 .cf-row-2, .cfbuilder-row-container-row4 .cf-row-2 {
+    width: 65%;
+    float: left;
+}
+.cfbuilder-container-row {
+   position: relative;
+   display: flex;
+   width: 100% !important;
+}
+.cfbuilder__toolbar {
+    border: 1px solid #DDD;
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: -30px;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0 1px 7px #b5b5b552;
+}
+.cfbuilder__toolbar div {
+   padding: 10px;
+   cursor: pointer;
+    border-right: 1px solid #DDD;
+}
+.cfbuilder__toolbar div:last-child {
+    border-right: none;
+}
+.cfbuilder__toolbar .cfDragHandle:hover {
+ cursor: move;
+}
+.cfbuilder-field .cfbuilder__toolbar {
+    left: 10px;
+    top: -45px;
+    display: flex;
+}
+.choose-header.choose-tool li {
+    display: flex;
+    align-items: center;
+}
+.choose-datas.choose-tool li {
+    display: flex;
+    align-items: center;
+}
+.choose-conatiner-default {
+    width: 10%;
+}
+.choose-conatiner-label {
+    width: 35%;
+    margin: 0 5px 0 0;
+}
+.choose-conatiner-value {
+    width: 35%;
+}
+.choose-conatiner-action {
+    margin: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+.cfbuilder-row-empty, .cfbuilder-field:hover, .cfbuilder-field.cfbuilder_active {
+    border-color: #DDD;
+}
+.cfbuilder_active {
+
+}
+.cfbuilder-popup {
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.cfbuilderemail-temp {
+    width: 80px !important;
+   height: 34px !important;
+   text-indent: 99999px;
+   background: #666;
+   overflow: hidden;
+}
+.cfbuilder-row-insert {
+    width: 100%;
+    height: 40px;
+    background: #666;
+    display: block;
+}
+.builder-row .ul-draggable-dragging {
+    background: red !important;
+    width: 200px !important;
+    height: 50px !important;
+    display: block !important;
+}
+.calculation-forms-content-tab-email,.calculation-forms-content-tab-messages, .calculation-forms-content-tab-paypal {
+    padding: 5px 30px 15px 30px;
+}
+.cfbuilder-close-locgic {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: 1px solid #a5a5a5;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a5a5a5;
+}
+.cfbuilder-popup-header {
+    margin: 0 0 15px;
+}
+.cfbuilder-popup-layout {
+    margin: 10px 0;
+}
+.choose-conatiner-action div {
+    margin: 0 5px 0 0;
+    color: #b3b3b3;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+}
+.choose-header.choose-tool {
+    margin: 15px 0 0;
+    font-size: 12px;
+    color: #888;
+}
+.header-tool-bar {
+    margin: 0;
+    border: 1px solid #ccc;
+    border-left: none;
+    cursor: pointer;
+    display: flex;
+    border-right: none;
+    margin-bottom: -1px;
+}
+.header-tool-bar .tool-filed-tab {
+    padding: 15px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -1px;
+}
+.header-tool-bar .tool-filed-tab.active {
+    border-bottom: 3px solid #2271b1 !important;
+}
+.header-tool-bar .tool-filed-tab:hover {
+     border-bottom: 3px solid #ccc;
+     opacity: 0.8;
+}
+.cfbuilder-sidebar-content-advanced,.cfbuilder-sidebar-content-general {
+    padding: 5px 15px 5px 15px;
+}
+.cfbuilder-sidebar-tool h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+.calculation-forms-button-container{
+    position: relative;
+}
+.calculation-forms-button-add-name {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    width: 33px;
+    height: 23px;
+    text-align: center;
+    background: #c7c6c6;
+    border-radius: 3px;
+    padding-top: 3px;
+}
+.calculation-forms-button-container select{
+    position: absolute;
+    top: 0px;
+    right: 34px;
+    width: 100px;
+}
+.calculation-forms-content-tab ul li {
+    margin: 0 0 15px;
+    margin-bottom: 1.25rem;
+}
+.calculation-forms-content-tab ul li label {
+    margin: 0 0 7px;
+}
+.calculation-forms-logic-item {
+    display: flex;
+    align-items: center;
+}
+.default_hide {
+    display: none;
+}
+.cfbuilder-row-empty {
+    border: 1px dotted #e7e7e7;
+}
+.cfbuilder-sidebar-tool textarea,
+.calculation-forms-content-tab-email textarea{
+    min-height: 100px;
+}
+#form-builder-upgrade img {
+    width: 100%;
+}
+#cfbuilder__toolbar_number_format_decimal img {
+    border-radius: 5px;
+}
+.calculation-forms-content-tab-style {
+    padding: 5px 30px 15px 30px;
+}
+.calculation-forms-content-tab-style label {
+    font-weight: 500;
+    color: #23282d;
+}
+.calculation-forms-content-tab-style input[type=number] {
+    max-width: 100px;
+}
+.calculation-forms-content-tab-style p{
+    color: #242748;
+    margin: 0;
+}
+.calculation-forms-tab>ul>li {
+    position: relative;
+    display: inline-block;
+}
+.calculation-forms-tab ul ul {  
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    z-index: 99999;
+    background: #fff;
+    padding-top: 6px;
+    display: none;
+}
+.calculation-forms-tab ul li:hover ul {
+    display: block;
+}
+.calculation-forms-tab ul ul li:last-child {
+    border: none;
+}
+.calculation-forms-tab ul ul li {
+    border-bottom:  1px solid #e7e7e7;
+} 
+.calculation-forms-tab ul ul li a {
+     padding: 5px 15px;
+}
+.calculation-forms-tab>ul>li:hover {
+    box-shadow: 0 -3px #2270b1 inset !important;
+}
+.calculation-forms-tab ul ul li:hover {
+    box-shadow: 0 -3px #2270b1 inset !important;
+}
+.calculation-forms-container-gird {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 0.875rem;
+    -ms-grid-columns: 12.875rem auto;
+    grid-template-columns: 12.875rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 69.5rem;
+    padding: 1.5rem;
+}
+.calculation-forms-container-gird-nav li a{
+    padding: 15px 10px;
+    padding-left: 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.calculation-forms-container-gird-nav li.active a {
+    background: #fff;
+    border: 1px solid #e3e6ef;
+    box-shadow: 0 1px 4px rgb(18 25 97 / 8%);
+}
+.calculation-forms-container-gird-nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #242748;
+}
+.calculation_forms_settings-tab-settings {
+    padding-top: 2.875rem;
+    background: #fff;
+    border: 1px solid #e3e6ef;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgb(18 25 97 / 8%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+    position: relative;
+}
+.calculation_forms_settings_title {
+    font-size: .875rem;
+    line-height: 2.875rem;
+    padding-left: 1.0625rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    border-bottom: 1px solid #e7e7e7;
+}
+.calculation_forms_settings-tab-settings form{
+        padding-left: 1.0625rem;
+        padding-right: 1.0625rem;
+}
+.text-center{
+    text-align: center;
+}
+.calculation-forms-step-header ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 26px;
+}
+.calculation-forms-step-header ul li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #aaa;
+    padding: 0;
+    margin: 0 4px -1px;
+    background-color: #e4e4e4;
+}
+.calculation-forms-step-header ul li.active {
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+.calculation-forms-step-header ul li a, .calculation-forms-step-header ul li a:focus{
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #333;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+.calculation-forms-step-header {
+    border-bottom: 1px solid #aaa;
+    padding: 9px 15px 0 10px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.cfbuilder-content-tab {
+    margin-top: -11px;
+}
+.calculation-forms-content-tab-form .cfbuilder-sidebar.fixed {
+    position: fixed;
+    top: 0;
+    right: 300px;
+    overflow-y: scroll;
+}

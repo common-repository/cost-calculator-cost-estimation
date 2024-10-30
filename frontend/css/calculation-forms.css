@@ -1,0 +1,345 @@
+/* Default input form */
+.wp-block-calculation-forms-selector input[type="text"],
+.wp-block-calculation-forms-selector input[type="password"], .wp-block-calculation-forms-selector input[type="email"], .wp-block-calculation-forms-selector input[type="url"], .wp-block-calculation-forms-selector input[type="date"], .wp-block-calculation-forms-selector input[type="month"], .wp-block-calculation-forms-selector input[type="time"], .wp-block-calculation-forms-selector input[type="datetime"], .wp-block-calculation-forms-selector input[type="datetime-local"], .wp-block-calculation-forms-selector input[type="week"], .wp-block-calculation-forms-selector input[type="number"], .wp-block-calculation-forms-selector input[type="search"], .wp-block-calculation-forms-selector input[type="tel"], .wp-block-calculation-forms-selector input[type="color"], .wp-block-calculation-forms-selector textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.1rem;
+  box-shadow: none;
+  display: block;
+  font-size: 14px;
+  letter-spacing: -0.015em;
+  margin: 0;
+  max-width: 100%;
+  padding: 10px 15px;
+  width: 100%;
+  border-color: #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.wp-block-calculation-forms-selector button, .wp-block-calculation-forms-selector .button, .wp-block-calculation-forms-selector input[type="button"], .wp-block-calculation-forms-selector input[type="reset"], .wp-block-calculation-forms-selector input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #cd2653;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.0333em;
+  line-height: 1.25;
+  margin: 0;
+  opacity: 1;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity 0.15s linear;
+}
+.wp-block-calculation-forms-selector {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.calculation-spinner {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.hidden {
+  display:  none !important;
+}
+.calculation-container-row {
+  display: flex;
+  margin: 0 -10px;
+}
+.calculation-row {
+  width: 100%;
+  padding: 0 10px;
+}
+.calculation-row-container-row3 .calculation-row-2 {
+  width: 65%;
+    float: left;
+}
+.calculation-row-container-row4 .calculation-row-2 {
+  width: 65%;
+    float: left;
+}
+.calculation-element {
+  margin: 0 0 15px;
+}
+.calculation-element-checkbox__item {
+  margin: 0 10px 0 0;
+  display: flex;
+  align-items: center;
+}
+.calculation-element-checkbox__item:last-child {
+  margin: 0;
+}
+.calculation-element-checkbox__item input {
+  margin: 0 5px 0 0;
+}
+.calculation-element-checkbox__item label {
+  margin: 0;
+}
+.calculation-field-element select {
+  background: #fff;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.1rem;
+  box-shadow: none;
+  display: block;
+  font-size: 14px;
+  letter-spacing: -0.015em;
+  margin: 0;
+  max-width: 100%;
+  padding: 10px 15px;
+  width: 100%;
+  border: 1px solid #dcd7ca;
+  border-color: #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.calculation-field-validate-message {
+  font-size: 13px;
+  margin: 5px 0 0;
+  color: #cd2653;
+}
+.calculation-field-validate input {
+  border-color: #cd2653;
+}
+.element-style-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.element-style-2 .calculation-field-element .calculation-field-total {
+  text-align: right;
+}
+.element-style-total-1 .calculation-field-element .calculation-field-total { 
+  background: transparent;
+   border: none !important;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 0;
+  cursor: default;
+}
+.calculation-field-total:focus {
+  outline: none;
+}
+.button-switch {
+  text-align: left;
+  width: 80px;
+  height: calc(80px / 2);
+  border-radius:40px;
+  background-color:#4ed164;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.button-switch > span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.button-switch > input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+}
+.button-switch > span:before, .button-switch > span:after {
+  content: "";
+  cursor: pointer;
+  position: absolute;
+}
+.button-switch > input[type="checkbox"]:focus ~ span {
+  box-shadow: 0 0 0 4px #43b556;
+}
+.button-switch > input[type="checkbox"]:checked:focus ~ span {
+  box-shadow: 0 0 0 4px #fff;
+}
+.button-switch > span {
+  border-radius: 60px;
+}
+.button-switch > span:before {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: opacity .2s ease-out .1s, transform .2s ease-out .1s;
+  transform: scale(1);
+  opacity: 1;
+}
+.button-switch > span:after{
+  top: 50%;
+  z-index: 3;
+  transition: transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+  width: calc(80px / 2);
+  height: calc(80px / 2);
+  transform: translate3d(0, -50%, 0);
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+.button-switch > input[type="checkbox"]:checked ~ span:before {
+  transform: scale(0);
+  opacity: .7;
+}
+.button-switch > input[type="checkbox"]:checked ~ span:after {
+  transform: translate3d(100%, -50%, 0);
+}
+.element-style-2 input {
+  text-align: right;
+}
+.calculation-swatches_images {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.calculation-swatches_images li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.calculation-swatches_images .active {
+  border: 1px solid #000;
+}
+.element-type-payment label{
+  display: inline-block;
+}
+
+
+.calculation_progressbar {
+    display: flex;
+} 
+.calculation_progressbar li {
+    list-style-type: none;
+    padding: 0 0px 0 30px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.calculation_progressbar li span.before {
+    width: 40px;
+    height: 40px;
+    content: "";
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 3px auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    background-color: #666;
+    color: #fff;
+}
+.calculation_progressbar li span.after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #7d7d7d;
+    top: 20px;
+    left: -50%;
+    z-index: 0;
+}
+.calculation_progressbar li.active {
+  color: green;
+  font-weight: bold;
+}
+.calculation_progressbar li.active .before {
+  border-color: #55b776;
+  background: green;
+}
+
+ 
+
+
+.gravity-step-confirm-title {
+    padding-bottom: 10px;
+    font-size: 19px;
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.gravity-step-confirm-item {
+    display: flex;
+    padding: 5px;
+}
+.gravity-step-confirm-name {
+  width: 30%;
+  text-align: right;
+  padding-right: 15px;
+  min-width: 250px;
+}
+.multistep-nav a,.multistep-nav a:focus {
+    border-radius: 3px;
+    background: #808080 !important;
+    color: #ffffff !important;
+    padding: 5px 15px;
+    text-decoration: none !important;
+    outline: none;
+}
+.multistep-nav a:hover {
+    opacity: 0.7;
+}
+.multistep-nav {
+    display: flex;
+    margin: 30px 0;
+}
+.multistep-nav div {
+    width: 100%;
+}
+.multistep-nav-right {
+    text-align: right;
+}
+.multistep-button-first {
+    margin-right: 15px;
+}
+.calculation-step-confirm-title {
+    padding-bottom: 10px;
+    font-size: 19px;
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.calculation-step-confirm-item {
+    display: flex;
+    padding: 5px;
+}
+.calculation-step-confirm-name {
+  width: 30%;
+  text-align: right;
+  padding-right: 15px;
+  min-width: 250px;
+}
+.calculation_progressbar-5 {
+  display:  none !important;
+}

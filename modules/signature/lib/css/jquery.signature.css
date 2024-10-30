@@ -1,0 +1,36 @@
+/* Styles for signature plugin v1.2.0. */
+.kbw-signature {
+	display: inline-block;
+	border: 1px solid #a0a0a0;
+	-ms-touch-action: none;
+}
+.kbw-signature-disabled {
+	opacity: 0.35;
+}
+
+.calculation_signature_name {
+	display: block;
+	margin-top: 5px;
+}
+.calculation_signature-container {
+	position: relative
+}
+.calculation_signature_clear {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 5px;
+	z-index: 9999;
+	top: -2px;
+}
+.calculation_signature_clear img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.calculation_signature_clear img:hover {
+	opacity: 0.5;
+}
+.wp-admin .calculation_signature_clear{
+	display: none;
+}
